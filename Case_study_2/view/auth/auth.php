@@ -32,8 +32,11 @@
 							</div>
 							<?php
 							echo $_SESSION["Invalid_credentials"] ?? null;
+							echo "<br>";
 							unset($_SESSION["Invalid_credentials"]);
+
 							?>
+
 							<div class="form-group">
 								<input id="password" name="password" type="password" class="form-control" placeholder="Password" required>
 							</div>

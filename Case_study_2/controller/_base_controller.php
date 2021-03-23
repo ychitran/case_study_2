@@ -17,7 +17,9 @@ abstract class BaseController
         $view_file = "view/$this->folder/$file_name.php";
         if (is_file($view_file)) {
             //Nếu tồn tại file đó thì tạo ra các biến chứa giá trị truyền vào lúc gọi hàm
-            // extract($data);
+            extract($viewData);
+
+
             //Sau đó lưu giá trị trả về khi chạy file view template với các dữ liệu đó vào 1 biến
             ob_start();
             include_once($view_file);

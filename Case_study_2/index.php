@@ -1,11 +1,19 @@
 <?php
 //Khai báo sử dụng session
-
 session_start();
+
 //Lẩy request controller và action
 $controller = $_GET["controller"] ?? null;
 $action = $_GET["action"] ?? null;
 
+
+
+//Kiểm tra dữ liệu từ form gửi lên nếu đăng nhập thành công thì show ra còn logout thì NULL
+
+// if (!isset($_SESSION["auth"]) {
+//     header("Location:?controller=auth&action=auth");
+// }
+// var_dump($_SESSION["auth"] ?? NULL);
 
 //Kết nối mySQL
 require_once("database.php");

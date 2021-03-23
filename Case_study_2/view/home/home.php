@@ -31,26 +31,26 @@
 <div class="wrapper-menu">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                <img src="assets/images/menu/blog_image_4.jpg" alt="images1">
+            <div class="col-md-6 col-12">
+                <a href="?controller=menu&action=menu"><img src="assets/images/menu/blog_image_4.jpg" alt="images1"></a>
                 <div class="caption">
                     <h3>APERETIVES</h3>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/menu/blog_image_10.jpg" alt="images2">
+            <div class="col-md-6 col-12">
+                <a href="?controller=menu&action=menu"><img src="assets/images/menu/blog_image_10.jpg" alt="images2"></a>
                 <div class="caption">
                     <h3>DRINK</h3>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/menu/blog_image_7.jpg" alt="images2">
+            <div class="col-md-6 col-12">
+                <a href="?controller=menu&action=menu"><img src="assets/images/menu/blog_image_7.jpg" alt="images2"></a>
                 <div class="caption">
                     <h3>DESSERTS</h3>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="assets/images/menu/blog_image_9.jpg" alt="images2">
+            <div class="col-md-6 col-12">
+                <a href="?controller=menu&action=menu"><img src="assets/images/menu/blog_image_9.jpg" alt="images2"></a>
                 <div class="caption">
                     <h3>BREAKFAST</h3>
                 </div>

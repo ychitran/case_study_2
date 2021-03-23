@@ -6,10 +6,10 @@
                  <div class="nav-bar-menu">
                      <div id="mySidenav" class="sidenav">
                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                         <a href="home">HOME</a>
-                         <a href="about">ABOUT</a>
-                         <a href="menu">MENU</a>
-                         <a href="reservation">RESERVATION</a>
+                         <a href="?controller=home&action=home">HOME</a>
+                         <a href="?controller=about&action=about">ABOUT</a>
+                         <a href="?controller=menu&action=menu">MENU</a>
+                         <a href="?controller=reservation&action=reservation">RESERVATION</a>
                          <hr>
                          <a style="color:#9d9996; padding-bottom: 0px">T: + 1800 806 777</a>
                          <a style="color:#9d9996">E: INFO@YOURDOMAIN.COM</a>

@@ -33,17 +33,17 @@
     <div class="jumbotron jumbotron-fluid footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 left-header text-left">
+                <div class="col-md-3 col-3 left-header text-left">
                     <form action="#">
                         <input type="text" placeholder="Enter your email">
                         <input type="submit" value="→">
                     </form>
 
                 </div>
-                <div class="col-md-6 center-header text-center">
+                <div class="col-md-6 col-6 center-header text-center">
                     <img src="assets/images/logo/jack_logo_black.svg" alt="">
                 </div>
-                <div class="col-md-3 right-header text-right">
+                <div class="col-md-3 col-3 right-header text-right">
                     <div class="icon">
                         <i class="fab fa-facebook-square" style="color: black"></i>
                         <i class="fab fa-instagram" style="color: black"></i>

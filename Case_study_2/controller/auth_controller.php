@@ -17,8 +17,14 @@ class AuthController extends BaseController
             $this->showLoginPage();
         }
     }
+
     function logOut()
     {
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            //Xoá thông tin đăng nhập khỏi session
+            unset($_SESSION["auth"]);
+            header("Location:?controller=auth&action=auth");
+        }
     }
 
     protected function submitLogin()
@@ -31,18 +37,24 @@ class AuthController extends BaseController
         $user = User::findByUsernameAndPassword($username, $password);
         //Đăng nhập thành công
         if ($user) {
-            //Thực hiện...
+            //Thực hiện lưu thông tin người dùng đã đăng nhập vào session
+            $_SESSION["auth"] = $user;
+            header("Location:?controller=admin&action=admin");
         } else {
             //Thông báo lỗi
-            $_SESSION["Invalid_credentials"] = "Username of password is not match";
+            $_SESSION["Invalid_credentials"] = "Username of password is not match.";
 
-            header("Location:?auth");
+            header("Location:?controller=auth&action=auth");
         }
 
         //Đăng nhập thất bại
     }
     protected function showLoginPage()
     {
+
+        if (isset($_SESSION["auth"])) {
+            header("Location:?controller=admin&action=admin");
+        }
         $this->render('auth', [], 'auth_layout');
     }
 }

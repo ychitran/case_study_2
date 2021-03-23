@@ -12,7 +12,7 @@
     <div class="wrapper-inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <p>Breakfast</p>
                     <h6>Daily 11:00 AM - 01:00 PM</h6>
                 </div>
@@ -24,15 +24,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <span class="restaurant-menu">OYSTER OMELET</span>
-                    <span class="restaurant-price">8$</span></br>
+                    <span class="restaurant-menu">TRADITIONAL BREAKFAST</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <br>
                     <div class="restaurant-description">
-                        Three fresh shucked Corpus Christi oysters, horseradish cheese, and onions. Served with two sourdough biscuits.
+                        Sausage, three rashers of streaky bacon, two fried eggs, grilled tomato, button mushrooms, Heinz baked beans and crispy herb potatoes.
                     </div>
                 </div>
                 <div class="col-md-6">
                     <span class="restaurant-menu">TRADITIONAL BREAKFAST</span>
                     <span class="restaurant-price">9$</span></br>
+                    <br>
+                    <div class="restaurant-description">
+                        Sausage, three rashers of streaky bacon, two fried eggs, grilled tomato, button mushrooms, Heinz baked beans and crispy herb potatoes.
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <span class="restaurant-menu">TRADITIONAL BREAKFAST</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <br>
+                    <div class="restaurant-description">
+                        Sausage, three rashers of streaky bacon, two fried eggs, grilled tomato, button mushrooms, Heinz baked beans and crispy herb potatoes.
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <span class="restaurant-menu">TRADITIONAL BREAKFAST</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <br>
                     <div class="restaurant-description">
                         Sausage, three rashers of streaky bacon, two fried eggs, grilled tomato, button mushrooms, Heinz baked beans and crispy herb potatoes.
                     </div>
@@ -67,7 +87,7 @@
     <div class="wrapper-inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <p>Lunch</p>
                     <h6>DAILY 01:00 PM - 03:00 PM</h6>
                 </div>
@@ -78,6 +98,20 @@
     <div class="wrapper-inner-menu">
         <div class="container">
             <div class="row">
+                <div class="col-md-6">
+                    <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
+                    <span class="restaurant-price">8$</span></br>
+                    <div class="restaurant-description">
+                        Baked mushrooms in a garlic and cheese sauce with a cheesy crumb, sprinkled with chopped chives and served with freshly baked rosemary bread.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <span class="restaurant-menu">BEEF LASAGNE</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <div class="restaurant-description">
+                        Rich beef ragu and creamy bechamel sauce layered between pasta sheets, with Neapolitan sauce.
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
                     <span class="restaurant-price">8$</span></br>
@@ -121,7 +155,7 @@
     <div class="wrapper-inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <p>Dinner</p>
                     <h6>SERVED DIALY FROM 06:00 PM TILL CLOSE</h6>
                 </div>
@@ -132,6 +166,20 @@
     <div class="wrapper-inner-menu">
         <div class="container">
             <div class="row">
+                <div class="col-md-6">
+                    <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
+                    <span class="restaurant-price">8$</span></br>
+                    <div class="restaurant-description">
+                        Baked mushrooms in a garlic and cheese sauce with a cheesy crumb, sprinkled with chopped chives and served with freshly baked rosemary bread.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <span class="restaurant-menu">BEEF LASAGNE</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <div class="restaurant-description">
+                        Rich beef ragu and creamy bechamel sauce layered between pasta sheets, with Neapolitan sauce.
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
                     <span class="restaurant-price">8$</span></br>
@@ -174,7 +222,7 @@
     <div class="wrapper-inner-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <p>Desserts</p>
                     <h6>SERVED DIALY</h6>
                 </div>
@@ -185,6 +233,20 @@
     <div class="wrapper-inner-menu">
         <div class="container">
             <div class="row">
+                <div class="col-md-6">
+                    <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
+                    <span class="restaurant-price">8$</span></br>
+                    <div class="restaurant-description">
+                        Baked mushrooms in a garlic and cheese sauce with a cheesy crumb, sprinkled with chopped chives and served with freshly baked rosemary bread.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <span class="restaurant-menu">BEEF LASAGNE</span>
+                    <span class="restaurant-price">9$</span></br>
+                    <div class="restaurant-description">
+                        Rich beef ragu and creamy bechamel sauce layered between pasta sheets, with Neapolitan sauce.
+                    </div>
+                </div>
                 <div class="col-md-6">
                     <span class="restaurant-menu">GARLIC AND CHEESE MUSHROOMS</span>
                     <span class="restaurant-price">8$</span></br>

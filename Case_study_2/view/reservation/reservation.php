@@ -21,7 +21,7 @@
                 </div>
                 <div class="booking-form">
                     <form id="booking-form" method="POST">
-                        <a href="home"><img src="assets/images/logo/jack_logo_white.svg" alt="logo"></a>
+                        <a href="?controller=home&action=home"><img src="assets/images/logo/jack_logo_white.svg" alt="logo"></a>
                         <h2>Booking Table!</h2>
 
                         <div class="form-group form-input">
