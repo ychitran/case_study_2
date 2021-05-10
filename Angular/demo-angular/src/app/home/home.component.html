@@ -1,0 +1,19 @@
+<p>home works!</p>
+
+<h3 class="myfirst">Hehehe Angular</h3>
+
+<h4 class="first">Hello {{ name }}</h4>
+
+<h4 class="second">Bạn đã {{ age }} tuổi</h4>
+
+<span *ngIf="age > 18; else elseBlock">Bạn trên 18 tuổi</span>
+<ng-template #elseBlock>Bạn dưới 18 tuổi</ng-template>
+<br>
+<br> Danh sách xe
+<div>
+    <select>
+    <option *ngFor="let vehicle of vehicles">
+        {{ vehicle }}
+    </option>
+</select>
+</div>
